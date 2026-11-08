@@ -3,7 +3,7 @@
 ## Инструкция запуска
 Требуется Node.js 18 или новее.
 ```bash
-npm ci
+npm ci/npm install
 npm run dev
 ```
 Откройте адрес, который выведет Vite (обычно `http://localhost:5173`). Production-сборка: `npm run build`, локальный просмотр: `npm run preview`. Установка PWA — через `localhost` или HTTPS командой браузера «Установить приложение».
